@@ -1,9 +1,9 @@
 # openFrameworks_Training
-### 01_drawing
+### [01_drawing](https://github.com/Wotipati/openFrameworks_Training/tree/master/01_drawing)
 - oF入門  
 - 2D描画プログラム  
 
-### 02_animation
+### [02_animation](https://github.com/Wotipati/openFrameworks_Training/tree/master/02_animation)
 - アニメーションの描画方法
 
 ### 参考文献
