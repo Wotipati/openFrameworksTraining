@@ -1,12 +1,13 @@
 #include "ofApp.h"
 
+const int NUM = 1000;
 
-float x[1000];
-float y[1000];
-float radius[1000];
-int r[1000];
-int g[1000];
-int b[1000];
+float x[NUM];
+float y[NUM];
+float radius[NUM];
+int r[NUM];
+int g[NUM];
+int b[NUM];
 
 
 
@@ -23,7 +24,7 @@ void ofApp::setup(){
     ofSetCircleResolution(64);
     
     // 乱数を用いて円のパラメタを設定
-    for(int i=0; i<1000; i++){
+    for(int i=0; i<NUM; i++){
         x[i] = ofRandom(0, ofGetWidth());
         y[i] = ofRandom(0, ofGetHeight());
         radius[i] = ofRandom(10, 30);
@@ -41,7 +42,7 @@ void ofApp::update(){
 //--------------------------------------------------------------
 void ofApp::draw(){
     
-    for(int i=0; i<1000; i++){
+    for(int i=0; i<NUM; i++){
         ofSetColor(r[i], g[i], b[i]);
         ofDrawCircle(x[i], y[i], radius[i]);
     }
