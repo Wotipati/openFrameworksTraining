@@ -1,3 +1,4 @@
 # openFrameworks_Training
 ### 01_drawing
-oFに慣れるための2D描画プログラム  
+oF入門  
+2D描画プログラム  
