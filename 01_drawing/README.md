@@ -3,7 +3,6 @@
 - oFに慣れよう  
 - 色々な図形の描画方法について  
 <br />
-<br />
 <img width="350" alt="2017-07-25 21 56 21" src="https://user-images.githubusercontent.com/26996041/28573064-437a62a6-7184-11e7-81cc-157f28a5a805.png">
 
 
