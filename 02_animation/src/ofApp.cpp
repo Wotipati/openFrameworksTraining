@@ -11,16 +11,10 @@ void ofApp::setup(){
     ofSetFrameRate(30);
     
     for(int i=0; i<NUM; i++){
-        ofPoint pos, speed;
-        pos.x = ofRandom(0, ofGetWidth());
-        pos.y = ofRandom(0, ofGetHeight());
-        speed.x = ofRandom(-10, 10);
-        speed.y = ofRandom(-10, 10);
+        ofPoint pos = ofPoint(ofRandom(0, ofGetWidth()), ofRandom(0, ofGetHeight()));
+        ofPoint speed = ofPoint(ofRandom(-10, 10), ofRandom(-10, 10));
         float radius = ofRandom(10, 30);
-        ofVec3f color;
-        color[0] = ofRandom(0, 200);
-        color[1] = ofRandom(80, 200);
-        color[2] = ofRandom(160, 255);
+        ofVec3f color = ofVec3f(ofRandom(0, 200), ofRandom(80, 200), ofRandom(160, 255));
         
         Particle particle(pos, radius, speed, color, gravity);
         particles.push_back(particle);
