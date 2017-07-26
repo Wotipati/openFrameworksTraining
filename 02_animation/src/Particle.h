@@ -9,8 +9,6 @@
 #ifndef Particle_h
 #define Particle_h
 
-//#pragma once
-
 #include <stdio.h>
 #include "ofMain.h"
 

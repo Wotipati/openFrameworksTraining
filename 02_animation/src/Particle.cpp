@@ -32,7 +32,7 @@ void Particle::update(){
     }
     
     if(pos_.y < radius_ || pos_.y > ofGetHeight()-radius_){
-        speed_.y *= -0.9;
+        speed_.y *= -0.7;
         if(pos_.y > ofGetHeight()-radius_){
             pos_.y = ofGetHeight()-radius_;
         }

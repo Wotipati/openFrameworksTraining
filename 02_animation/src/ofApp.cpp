@@ -1,7 +1,7 @@
 #include "ofApp.h"
 
 int NUM = 500;
-float gravity = 0.2;
+float gravity = 0.3;
 
 //--------------------------------------------------------------
 void ofApp::setup(){
