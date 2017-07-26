@@ -19,7 +19,6 @@ void ofApp::setup(){
         Particle particle(pos, radius, speed, color, gravity);
         particles.push_back(particle);
     }
-
 }
 
 //--------------------------------------------------------------

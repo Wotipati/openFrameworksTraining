@@ -40,7 +40,6 @@ void Particle::update(){
             pos_.y = radius_;
         }
     }
-
 }
 
 
