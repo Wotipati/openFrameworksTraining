@@ -17,11 +17,7 @@ public:
     Particle(ofPoint, float, ofPoint, ofVec3f, float);
     void update();
     void draw();
-    ofPoint getPos();
-    float getRadius();
-    ofPoint getSpeed();
-    ofVec3f getColor();
-
+    
 private:
     ofPoint pos_;
     float radius_;

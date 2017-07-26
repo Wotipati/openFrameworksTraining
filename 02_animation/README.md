@@ -26,8 +26,12 @@
   class Particle{
   public:
     Particle(ofPoint, float, ofPoint, ofVec3f, float);  // コンストラクタ
-    void update();  // パラメタの更新
-    void draw();    // 描画
+    void update();      // パラメタの更新
+    void draw();        // 描画
+    ofPoint getPos();   // 中心座標の取得
+    float getRadius();  // 半径の取得
+    ofPoint getSpeed(); // 速度の取得
+    ofVec3f getColor(); // 色の取得
 
   private:
     ofPoint pos_;   // 中心の位置
