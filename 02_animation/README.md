@@ -1,7 +1,6 @@
 # 02_animation
 
 - アニメーションの描画
-<br />
 ![02_animation](https://user-images.githubusercontent.com/26996041/28614081-750caac6-722f-11e7-97a2-8bddbccca131.gif)
 
 
