@@ -32,7 +32,7 @@ void Particle::update(){
     }
     
     if(pos_.y < radius_ || pos_.y > ofGetHeight()-radius_){
-        speed_.y *= -0.7;
+        speed_.y *= -1;
         if(pos_.y > ofGetHeight()-radius_){
             pos_.y = ofGetHeight()-radius_;
         }
@@ -40,11 +40,30 @@ void Particle::update(){
             pos_.y = radius_;
         }
     }
-    
 }
 
 
 void Particle::draw(){
     ofSetColor(color_[0], color_[1], color_[2], 128);
     ofDrawCircle(pos_.x, pos_.y, radius_);
+}
+
+
+ofPoint Particle::getPos(){
+    return pos_;
+}
+
+
+float Particle::getRadius(){
+    return radius_;
+}
+
+
+ofPoint Particle::getSpeed(){
+    return speed_;
+}
+
+
+ofVec3f Particle::getColor(){
+    return color_;
 }
