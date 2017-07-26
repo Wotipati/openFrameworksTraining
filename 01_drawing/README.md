@@ -41,16 +41,15 @@
 ---
 #### 色の設定
 ##### 背景色の設定
-- `ofBackground()`を用いて行う  
-- `setup()`関数の中で行う
-- 引数としてRGBで色の指定を行う  
+- `setup()`関数の中で`ofBackground()`を用いて行う  
+- 引数はRGBの各値
 
       ofBackground("R", "G", "B");
 
 
 ##### 描画色の設定
 - `ofSetColor()`を用いて行う
-- `ofSetColor()`で色を指定するとそれ以降で描いた図形が指定した色で塗り潰される
+- それ以降で描いた図形が指定した色で塗り潰される
 - `setup()`で指定すると、`draw()`に描いた全ての図形に適用される
 
       ofSetColor("R", "G", "B");
@@ -83,7 +82,7 @@ openFrameworksでは座標軸は画面の左上を原点に、横の位置をx�
 ##### 円の描画
 - 事前に`setup()`内で、`ofSetCircleResolution`というメソッドを用いて円の精密度を設定する
 - この設定を忘れると、円がカクカクしたものになる
-- 楕円の描画時に於いても同様に`ofSetCircleResolution`でその精密度が設定される
+- 楕円の描画時に於いても同様に`ofSetCircleResolution`で、その精密度が設定される
 
       ofDrawCircle("中心のx座標", ”中心のy座標", "半径");
 
@@ -98,13 +97,9 @@ openFrameworksでは座標軸は画面の左上を原点に、横の位置をx�
 ### その他の基本的な関数
 
 ##### 画面の幅と高さを取得する
-画面の高さを返す
 
-      ofGetWidth();
-
-画面の幅を返す
-
-      ofGetHeight();
+      ofGetWidth();   // 画面の高さ
+      ofGetHeight();  // 画面の幅
 
 
 ##### 乱数の設定
