@@ -12,4 +12,10 @@
 
 ### 参考文献
 - [Beyond Interaction［改訂第2版］クリエイティブ・コーディングのためのopenFrameworks実践ガイド](http://www.bnn.co.jp/books/3926/)
+- [メディア芸術応用 – メディアラボ I 2016](http://yoppa.org/tau_media16)
+  - このサイトはホントに充実してます
+  - 上であげた本を書いた人のサイトです
+  - 美大でプログラミングの授業を行なっている人がその講義資料をあげているサイトです
+  - 一番参考にしたのはこのサイトですが、他の講義のページも大変参考になりました。
+
 - [Xcodeセットアップガイド - openFrameworksJp](http://openframeworks.jp/setup/xcode/)
