@@ -1,12 +1,12 @@
 # openFrameworks_Training
-### [01_drawing](https://github.com/Wotipati/openFrameworks_Training/tree/master/01_drawing)
+### [01Drawing](https://github.com/Wotipati/openFrameworks_Training/tree/master/01_drawing)
 - oF入門  
 - 2D描画プログラム  
 
-### [02_animation](https://github.com/Wotipati/openFrameworks_Training/tree/master/02_animation)
+### [02Animation](https://github.com/Wotipati/openFrameworks_Training/tree/master/02_animation)
 - アニメーションの描画方法  
 
-### [03_animation](https://github.com/Wotipati/openFrameworks_Training/tree/master/03_mouseInteraction)
+### [03MouseInteraction](https://github.com/Wotipati/openFrameworks_Training/tree/master/03_mouseInteraction)
 - マウスによるインタラクティブな操作の実装
 - キーボードによる操作も含む
 
