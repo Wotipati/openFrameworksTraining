@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-            BuildableName = "03_mouseInteraction.app"
-            BlueprintName = "03_mouseInteraction"
-            ReferencedContainer = "container:03_mouseInteraction.xcodeproj">
+            BuildableName = "03MouseInteraction.app"
+            BlueprintName = "03MouseInteraction"
+            ReferencedContainer = "container:03MouseInteraction.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-            BuildableName = "03_mouseInteraction.app"
-            BlueprintName = "03_mouseInteraction"
-            ReferencedContainer = "container:03_mouseInteraction.xcodeproj">
+            BuildableName = "03MouseInteraction.app"
+            BlueprintName = "03MouseInteraction"
+            ReferencedContainer = "container:03MouseInteraction.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
