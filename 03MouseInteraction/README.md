@@ -4,12 +4,12 @@
 
 ![03_mouseinteraction_demo](https://user-images.githubusercontent.com/26996041/28864521-c4335956-77a7-11e7-8f17-3838564ec6c0.gif)
 
-- How to use
-  - crick background ... クリックした場所に新しい円を生成
-  - crick a particle ... 円が4方向へ分裂
-  - press `Enter` ... 画面中心に新しい円を生成
-  - press `r` ... 円を全て消去
-  - press `esc` ... 終了
+### How to use
+  - crick background ... Generate a new particle at the cricked point
+  - crick a particle ... Divide the circle in 4 directions
+  - press `Enter` ... Generate a new particle at the center of the screen
+  - press `r` ... Delete all the particles
+  - press `esc` ... Exit
 
 #### マウス位置の検出
 - openFrameworksでは
