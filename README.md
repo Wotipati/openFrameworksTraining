@@ -6,9 +6,10 @@
 ### [02Animation](https://github.com/Wotipati/openFrameworksTraining/tree/master/02Animation)
 - アニメーションの描画方法  
 
-### [03MouseInteraction](https://github.com/Wotipati/openFrameworksTraining/tree/master/03MouseInteraction)
+### [03MouseInteraction](https://github.com/Wotipati/openFrameworksTraining/tree/master/03MouseInteraction) & [04MouseInteraction](https://github.com/Wotipati/openFrameworksTraining/tree/master/04MouseInteraction2)
 - マウスによるインタラクティブな操作の実装
 - キーボードによる操作も含む
+
 
 ### 参考文献
 - [Beyond Interaction［改訂第2版］クリエイティブ・コーディングのためのopenFrameworks実践ガイド](http://www.bnn.co.jp/books/3926/)
