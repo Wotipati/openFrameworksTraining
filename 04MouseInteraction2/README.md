@@ -4,7 +4,15 @@
 
 - How to use
   - press `1`~`4`(n=0,1,2,3,4) ... generate particles(5^n)
+
   - press `↑`, `↓` ... change "force"
-    - force > 0 (Red frame): operate a repulsion force
+    - force > 0 (Red frame)
+      - Repulsion force
+      - Particles chase your cursor  
+
     - force = 0 (Green frame)
-    - force < 0 (Blue frame): operate an attraction force
+      - Particles stand still  
+
+    - force < 0 (Blue frame)
+      - Attraction force
+      - Particles avoid your cursor
