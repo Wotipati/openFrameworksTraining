@@ -11,6 +11,8 @@
   - press `r` ... Delete all the particles
   - press `esc` ... Exit
 
+---
+
 #### マウス位置の検出
 - openFrameworksでは
   ```c++
