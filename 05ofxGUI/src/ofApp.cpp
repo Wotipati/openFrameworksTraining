@@ -24,34 +24,26 @@ void ofApp::setup(){
     gui.add(speed.setup("speed", initSpeed, minSpeed, maxSpeed));
     
     Particle newParticle(ofPoint(ofGetWidth()/2, ofGetHeight()/2), 50, initSpeed, initColor, 0);
-//Particle(ofPoint pos, float radius, ofVec2f speed, ofColor color, float gravity)
     particles.push_back(newParticle);
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
+    particles[0].changeRadius(radius);
+    particles[0].changeSpeed(ofVec2f(speed));
+    particles[0].changeColor(ofColor(color));
     for(int i=0; i<particles.size(); i++){
         particles[i].update();
     }
-    
-//    if(particles[0].getPos().x < particles[0].getRadius() || particles[0].getPos().x > ofGetWidth()-particles[0].getRadius()){
-//        speed = particles[0].getSpeed();
-//    }
-//    
-//    if(particles[0].getPos().y < particles[0].getRadius() || particles[0].getPos().y > ofGetHeight()-particles[0].getRadius()){
-//        speed = particles[0].getSpeed();
-//    }
+  
+    ofVec2f sp = particles[0].getSpeed();
+    speed.changeValue(sp);
 }
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-    particles[0].changeRadius(radius);
-    particles[0].changeSpeed(ofVec2f(speed));
-    particles[0].changeColor(ofColor(color));
     particles[0].draw();
-    
     gui.draw();
-    
 }
 
 //--------------------------------------------------------------

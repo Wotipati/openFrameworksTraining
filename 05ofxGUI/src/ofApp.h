@@ -27,6 +27,7 @@ class ofApp : public ofBaseApp{
         ofxFloatSlider radius;
         ofxColorSlider color;
         ofxVec2Slider speed;
+//    ofParameter<ofVec2f> sp;
     
     std::vector<Particle> particles;
     //Particle particle;
