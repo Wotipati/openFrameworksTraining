@@ -10,6 +10,8 @@
 - マウスによるインタラクティブな操作の実装
 - キーボードによる操作も含む
 
+### [05ofxGUI](https://github.com/Wotipati/openFrameworksTraining/tree/master/05ofxGUI)
+- アドオン(ofxGUI)の導入 
 
 ### 参考文献
 - [Beyond Interaction［改訂第2版］クリエイティブ・コーディングのためのopenFrameworks実践ガイド](http://www.bnn.co.jp/books/3926/)
